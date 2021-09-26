@@ -1,0 +1,47 @@
+.title-wrapper {
+    background: #583fcf;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    background: #dfdfdf;
+}
+
+.content {
+    background: white;
+}
+
+.tag {
+    position:absolute;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.btn:hover {
+    color: #583fcf !important;
+}
+
+.active{
+    color: #583fcf !important;
+}
+
+.card{
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.span-pad{ 
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+    margin-right: 5px;
+}
+.arrowicons{
+    display: flex;
+    justify-content: center;
+}

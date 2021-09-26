@@ -1,0 +1,81 @@
+
+.token {
+    white-space: pre-wrap;
+    position: relative;
+    line-height: 2;
+    font-size: 20px;
+    word-wrap: break-word;
+    margin: 0 1px;
+	display: inline;
+    vertical-align: top;
+	position: relative;
+}
+
+mark {
+    position: relative;
+    background-color:  #ffe184 !important;
+    outline: none;
+    color: inherit;
+    margin: 0 0.15em;
+    display: inline;
+    padding: 0.25em 0.4em;
+    background-color: #ffe184 !important;
+    font-weight: bold;
+    line-height: 2;
+    box-decoration-break: clone;
+}
+
+.delete{
+    font-size: 15px;
+    position: absolute;
+    top: -17px;
+    left: -2px;
+    cursor: pointer;
+}
+
+.whitespace{
+    background-color: white;
+}
+
+.c01174 {
+	top: -7px;
+	left: -7px;
+	color: #ffe184;
+	width: 14px;
+	height: 14px;
+	position: relative;
+	font-size: 0.7em;
+	background: #444;
+	text-align: center;
+	align-items: center;
+	font-family: sans-serif;
+	line-height: 1.0;
+	user-select: none;
+	border-radius: 50%;
+	justify-content: center;
+}
+
+.text-area{
+    display: inline;
+    white-space: pre-line;
+    padding: 10px;
+}
+
+.text-area-container {
+	padding: 10px;
+	font-size: 15px;
+    overflow-y: scroll;
+    height: 420px;
+}
+
+::selection {
+    background-color: #ffe184;
+    /* WebKit/Blink Browsers */
+}
+.selectedTag{
+    font-size: 10px;
+    color: #583fcf;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
